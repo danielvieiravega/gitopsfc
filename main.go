@@ -4,7 +4,7 @@ import "net/http"
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("<h1>hello full cycle </h1>"))
+		w.Write([]byte("<h1>hello argo </h1>"))
 	})
 	http.ListenAndServe(":8080", nil)
 }
