@@ -6,4 +6,4 @@ resources:
 images:
 - name: goserver
   newName: danielvieiravega/gitopsfc
-  newTag: 655195806ed68d4eca2cbaaf35f6b32696154133
+  newTag: 6eebf31b8449a28699f2c805880d3881a83ac67f
