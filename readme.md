@@ -1,5 +1,7 @@
 kind create cluster --name=gitopsfc
 
+kubectl apply -f .\k8s\ 
+
 kubectl create namespace argocd
 
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
